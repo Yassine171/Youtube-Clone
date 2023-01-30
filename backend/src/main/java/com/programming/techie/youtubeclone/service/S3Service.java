@@ -17,7 +17,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class S3Service implements FileService {
 
-    public static final String BUCKET_NAME = "youtube-demo-ptechie";
+    public static final String BUCKET_NAME = "add-your-Bucket-name";
     private final AmazonS3Client awsS3Client;
 
     @Override
